@@ -1,0 +1,66 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+body{
+    background-color: black;
+}
+header{
+    background-color: white;
+    padding: 20px;
+}
+ h1 {
+     text-align: center;
+ }
+
+ .score-board {
+     border: 3px solid white;
+     width: 300px;
+     text-align: center;
+     font-size: 46px;
+     margin: 20px auto;
+     border-radius: 4px;
+     padding: 15px 20px;
+     color: white;
+     position: relative;
+ }
+ .badges{
+     background: #e25849;
+     color: white;
+     font-size: 14px;
+     padding: 2px 10px;
+
+ }
+
+ #user-label{
+     position: absolute;
+     top: 25px;
+     left: -25px;
+ }
+ #comp-label{
+     position: absolute;
+     top: 25px;
+     right: -25px;
+ }
+
+ .choices {
+     display: flex;
+     justify-content: center;
+
+ }
+ .choice img{
+     color: white;
+     background-color: aliceblue;
+     margin: 10px;
+     cursor: pointer;
+ }
+
+.active-message{
+    text-align: center;
+    color: white;
+}
+.result h2{
+    color: wheat;
+    text-align: center;
+}
